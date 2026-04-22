@@ -4,7 +4,6 @@ class NumPro8
      {
           int n=8128;
           int sum=0;
-          boolean b=false;
           for(int i=1;i<n;i++)
           {
                if(n%i==0)
