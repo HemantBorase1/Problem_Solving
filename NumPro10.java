@@ -14,6 +14,8 @@ class NumPro10
                     square+=i;
                     break;
                 }
+
+
             }
         System.out.println(square);
      }
