@@ -7,12 +7,13 @@ class StrPro14
          String str="Hello World";
         for(int i=0;i<str.length();i++)
         {
-               if(str.charAt(i)==" ")
+             char c=str.charAt(i);
+               if(c==' ')
                {
 
                 } 
               else
-                count++
+                count++;
          }
         System.out.println(count);
    }
